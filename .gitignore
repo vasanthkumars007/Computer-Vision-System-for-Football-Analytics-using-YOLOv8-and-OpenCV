@@ -3,7 +3,7 @@
 
 # Input and output videos (usually large files)
 input_videos/
-!input_videos/
+!input_videos/.gitkeep
 *.mp4
 output_videos/
 *.avi
