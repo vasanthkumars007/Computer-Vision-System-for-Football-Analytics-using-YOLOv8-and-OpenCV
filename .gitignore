@@ -1,0 +1,37 @@
+.qodo
+# Ignore Qodo configuration files
+
+# Input and output videos (usually large files)
+input_videos/
+*.mp4
+output_videos/
+*.avi
+
+
+# Ignore Python virtual environment directory
+venv
+.venv/
+
+
+# Model files (can be large and often regenerated)
+models/
+
+# Cache files
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Any large dataset files
+*.tar
+*.zip
+*.7z
+*.pt
+
+# Ignore all files in the runs/detect directory
+runs/detect/*
+!runs/detect/
+
+# traing datas get ignored bcause there created trough the training process
+training/football-players-detection-14/
